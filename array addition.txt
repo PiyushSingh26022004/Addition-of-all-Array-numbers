@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main() {
+int n,k,j;
+cout<<"Enter Size of Array"<<endl;
+cin>>n;
+cout<<"Enter Arrays "<<endl;
+int arr[n];
+for (int i=0;i<n;i++){
+cin>>arr[i];}
+ j=arr[0];
+
+for (int i=1;i<n;i++)
+         j=j+arr[i];
+   cout<<"The sum of all array Number is "<<j;
+
+   return 0;
+}
